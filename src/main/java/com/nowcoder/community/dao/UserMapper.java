@@ -2,7 +2,7 @@ package com.nowcoder.community.dao;
 
 import com.nowcoder.community.entity.User;
 import org.apache.ibatis.annotations.Mapper;
-
+// Mybatis标明bean
 @Mapper
 public interface UserMapper {
 
@@ -19,5 +19,6 @@ public interface UserMapper {
     int updateHeader(int id, String headerUrl);
 
     int updatePassword(int id, String password);
+
 
 }
